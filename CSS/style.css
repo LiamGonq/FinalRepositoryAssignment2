@@ -1,0 +1,269 @@
+body {
+    background-color: aliceblue;
+    background-image: url(../Images/RecordBackground.jpg);
+}
+
+/* setting the display properties of the textfields */
+.textfield {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+/* Setting the width of and the space between the text input fields */
+.textfield input {
+    width: 50em;
+    height: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/* setting the margin proprties of the checkboxes to 0 */
+.checkbox input {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+label {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 1000;
+    padding-top: 1%;
+    color: white;
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 1000;
+    padding-top: 1%;
+    color: white;
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+.formControl {
+    margin-bottom: 1em;
+    color: red;
+}
+
+#emailContainer {
+    margin-top: 1em;
+}
+
+/* Setting the display properties of all the input fields  */
+#formContainer input {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.063em;
+    margin: auto;
+    padding: 0.3em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    width: 90%
+}
+
+.buttonContainer {
+    text-align: center;
+    margin-top: 2em
+}
+
+.buttons {
+    background-color: lightblue;
+    height: 4em;
+    width: 10em;
+    margin-bottom: 1.5em;
+}
+
+img {
+    height: 80%;
+    width: 85%;
+    margin-bottom: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.loginField input {
+    width: 20em;
+    height: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.extraContainer {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+a {
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+
+.extraContainer {
+    padding-bottom: 1.5em;
+}
+
+#formContainer {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 45%;
+    background-color: rgba(188, 195, 200, 0.544);
+    border: rgb(0, 46, 15) solid;
+    border-width: 0.2em;
+}
+
+.sectionHeader {
+    font-size: 3em;
+    font-weight: 1000;
+    padding-top: 1%;
+    color: white;
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+#sectionTwo {
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    left: 50%;
+    text-align: center;
+}
+
+#sectionOne {
+    position: absolute;
+    top: 2%;
+    right: 50%;
+    left: 0%;
+    text-align: center;
+}
+
+.songHolder {
+    position: absolute;
+    top: 15%;
+    align-self: center;
+    border: rgb(0, 46, 15) solid;
+    border-width: 0.2em;
+    padding: 1em;
+    height: 75%;
+    overflow-y: scroll;
+    background-color: rgba(188, 195, 200, 0.544);
+}
+
+#allSongs {
+    right: 55%;
+    left: 5%;
+}
+
+#userSongs {
+    right: 5%;
+    left: 55%;
+}
+
+.song {
+    border: rgb(94, 0, 0) solid;
+    border-width: 0.1em;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgba(255, 219, 74, 0.709);
+    opacity: 0.8;
+}
+
+.song {
+    position: relative;
+    border: rgb(94, 0, 0) solid;
+    border-width: 0.1em;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgba(255, 219, 74, 0.709);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.Title {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Artist {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.Genre {
+    position: absolute;
+    top:0;
+    right: 1em;
+    color: rgba(64, 64, 192, 0.773);
+    font-size: 1.25em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.searchbar {
+    position: absolute;
+    top: 5%;
+    right: 55%;
+    left: 12%;
+    background-color: #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    border: 1px solid black;
+    font-size: x-large;
+}
+
+#SearchButton {
+    position: absolute; 
+    top: 6%; 
+    right: 55.5%; 
+    background: transparent; 
+    border: 0; 
+    width: 1%; 
+    height: 2%; 
+    cursor: pointer;
+    filter: brightness(0);
+}
+
+#SearchCriteria {
+    position: absolute;
+    top: 5.5%; 
+    left: 5%;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 650px) {
+    h1 {
+        font-size: 2em;
+    }
+}

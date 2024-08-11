@@ -1,0 +1,14 @@
+Plan for homepage.php
+
+	Create a PHP object modeling a song
+		* Properties matching columns on table
+		* Constructor
+		* Setters to set the properties equal to the values in the columns
+	
+	Create SELECT statement to gather the records in the song table
+		* Each result from the SELECT statement should call the constructor
+		* Create a song instance representing each record in the table
+			
+	Use JS to create HTMl to display each instance
+
+			
